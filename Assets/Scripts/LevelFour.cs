@@ -12,7 +12,6 @@ public class LevelFour : Gameplay {
 
     void Update () {
         if (isChestCollected) {
-            Debug.Log("You win");
             Application.Quit();
         }
     }
