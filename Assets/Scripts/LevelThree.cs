@@ -2,8 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LevelThree : Gameplay
-{
+public class LevelThree : Gameplay {
     readonly private int enemiesCount = 3;
     public int enemiesDefeated = 0;
 

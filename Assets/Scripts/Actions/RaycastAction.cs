@@ -2,8 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class RaycastAction : MonoBehaviour
-{
+public abstract class RaycastAction : MonoBehaviour {
     protected GameObject player;
     protected int thresholdDistance = 1;
 

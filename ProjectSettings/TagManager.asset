@@ -6,6 +6,7 @@ TagManager:
   tags:
   - level-1-wall
   - level-1-chest
+  - all-chests
   layers:
   - Default
   - TransparentFX

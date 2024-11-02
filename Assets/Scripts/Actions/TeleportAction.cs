@@ -24,7 +24,6 @@ public class TeleportAction : MonoBehaviour {
     }
 
     void OnCollisionEnter(Collision collision) {
-        // if (gameplayScript.isTeleporterActive && collision.gameObject.CompareTag("Player")) {
         if (collision.gameObject.CompareTag("Player")) {
             player.transform.position = teleporationTarget.transform.position;
             gameplayScript.isChestCollected = false;
